@@ -5,9 +5,9 @@
 using namespace std;
 
 int main() {
-    ifstream inputFile("MaTranKe.inp");
+    ifstream inputFile("MaTrabKe.inp");
     if (!inputFile.is_open()) {
-        cerr << "Loi mo file dau vao MaTranKe.inp" << endl;
+        cerr << "Loi mo file dau vao MaTrabKe.inp" << endl;
         return 1;
     }
 
@@ -36,9 +36,9 @@ int main() {
     }
 
     // Mở file đầu ra
-    ofstream outputFile("MaTranKe.out");
+    ofstream outputFile("MaTrabKe.out");
     if (!outputFile.is_open()) {
-        cerr << "Loi mo file dau ra MaTranKe.out" << endl;
+        cerr << "Loi mo file dau ra MaTrabKe.out" << endl;
         return 1;
     }
 
@@ -52,7 +52,7 @@ int main() {
 
     outputFile.close();
 
-    cout << "Chuong trinh da hoan tat. Ket qua duoc ghi vao MaTranKe.out" << endl;
+    cout << "Chuong trinh da hoan tat. Ket qua duoc ghi vao MaTrabKe.out" << endl;
 
     return 0;
 }
